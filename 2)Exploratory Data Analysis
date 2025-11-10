@@ -1,3 +1,0 @@
-# Use your merged_df which already has user_id, movie_id, rating, title
-reader = Reader(rating_scale=(1, 5))  
-data = Dataset.load_from_df(merged_df[['user_id', 'title', 'rating']], reader)
